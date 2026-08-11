@@ -1,0 +1,252 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.sky{
+    position: absolute;
+    width: 100vw;
+    height: 45vh;
+}
+
+.food{
+    width: 100vw;
+    position: absolute;
+}
+
+.aeroplane{
+    position: relative;
+    top: -80px;
+    animation: 2.5s linear 0s infinite normal forwards running aeroplane;
+}
+@keyframes aeroplane{
+    0% {
+    transform: translate(1500px);
+}
+
+100% {
+    transform: translate(-400px);
+}
+}
+
+.helicopter{
+    position: relative;
+    top: 50px;
+    animation: 4.5s linear 0s infinite normal forwards running helicopter;
+    width: 200px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+@keyframes helicopter{
+    0% {
+    transform: translate(1450px);
+}
+100% {
+    transform: translate(-550px);
+}
+}
+
+.grass{
+    width: 100vw;
+    position: relative;
+    margin-top: 100px;
+    top: 95px;
+    height: 1.5vh;
+    background-color: rgb(88, 247, 88);
+    /* border-width: 1px;
+    border-style: solid; */
+    border-color: rgb(88, 247, 88);
+    display: block;
+}
+
+.road1{
+    outline: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    position: relative;
+    top: 95px;
+    height: 25vh;
+}
+
+.grassg{
+    width: 100vw;
+    position: relative;
+    top: 95px;
+    height: 6vh;
+    border: 10px solid rgb(49, 48, 48);
+    background-color: rgb(49, 48, 48);
+    display: block;
+
+}
+
+.road2{
+    outline: 2px solid black;
+    margin-bottom: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    position: relative;
+    height: 25vh;
+    top: 95px;
+}
+
+.bike{
+    position: relative;
+    top: -460px;
+    animation: bike 4s linear infinite forwards;
+}
+
+@keyframes bike{
+    0% {
+    transform: translate(1450px);
+}
+100% {
+    transform: translate(-550px);
+}
+}
+
+.truck{
+    position: relative;
+    top: -345px;
+    z-index: 10;
+    animation: truck 3s linear infinite forwards;
+    width: 200px;
+}
+
+@keyframes truck{
+
+    0% {
+    transform: translate(1450px);
+}
+100% {
+    transform: translate(-550px);
+}
+}
+
+.Ulber{
+    position: relative;
+    top: -425px;
+    animation: Ulber 4.5s linear infinite forwards;
+    width:200px;
+}
+
+@keyframes Ulber{
+    
+    0% {
+    transform: translate(1450px);
+}
+100% {
+    transform: translate(-550px);
+}
+}
+
+.human{
+    position: relative;
+    width: 150px;
+    z-index: 10;
+    top: -570px;
+    animation: human 15s linear infinite forwards;
+}
+
+@keyframes human{
+    0% {
+    transform: translate(-600px);
+}
+100% {
+    transform: translate(1200px);
+}
+}
+
+.man{
+    position: relative;
+    width: 150px;
+    top: -580px;
+    animation: man 18s linear infinite forwards;
+}
+
+@keyframes man{
+    0% {
+    transform: translate(1400px);
+}
+
+100% {
+    transform: translate(-800px);
+}
+}
+
+.one-way{
+    position: relative;
+    top: -305px;
+    z-index: 10;
+    left: 350px;
+}
+
+.one-way2{
+    position: relative;
+    top: -305px;
+    z-index: 10;
+    right: 850px;
+}
+
+.pole{
+    position: relative;
+    width: 100px;
+    z-index: 10;
+    top: -340px;
+    left: 120px;
+}
+
+.pole2{
+    position: relative;
+    width: 100px;
+    z-index: 10;
+    top: -340px;
+    left: -290px;
+}
+
+.pole3{
+    position: relative;
+    width: 100px;
+    z-index: 10;
+    top: -305px;
+    left: 120px;
+}
+
+.pole4{
+    position: relative;
+    width: 100;
+    z-index: 10;
+    top: -560px;
+    left: 400px;
+}
+
+.pole5 {
+    position: relative;
+    width: 100;
+    z-index: 10;
+    top: -560px;
+    right: 60px;
+}
+
+.cycle{
+    position: relative;
+    width: 120;
+    z-index: 10;
+    top: -355px;
+    animation: cycle 8.5s linear infinite forwards;
+}
+
+@keyframes cycle{
+    0% {
+    transform: translate(-700px);
+}
+
+100% {
+    transform: translate(1500px);
+}
+}
